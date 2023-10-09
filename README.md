@@ -4,6 +4,11 @@
 <p align="center">
 
    [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=9C29F7&width=435&size=45&center=true&vCenter=true&width=1500&height=100&lines=Software+Engineer;Back+End+Developer)](https://git.io/typing-svg)  
+
+   <div align="center">
+  <img height="250" src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Developer.gif"  />
+
+</div>
 </p>
 
 

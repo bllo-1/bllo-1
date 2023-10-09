@@ -1,6 +1,12 @@
 <h1>Hi 👋, I'm abdullah</h1>
 <h3>I'm Back-End Web-Developer Based on Riyadh Saudi Arabia</h3>
 
+<p align="center">
+
+   [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=9C29F7&width=435&size=45&center=true&vCenter=true&width=1500&height=100&lines=Software+Engineer;Back+End+Developer)](https://git.io/typing-svg)  
+</p>
+
+
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://www.linkedin.com/in/abdullah-taher-82699326b/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/abdullah-taher-82699326b/" height="30" width="40" /></a>

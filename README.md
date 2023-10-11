@@ -1,5 +1,5 @@
 <h1>Hi 👋, I'm abdullah</h1>
-<h3>I'm Back-End Web-Developer Based on Riyadh Saudi Arabia</h3>
+<h3>I'm Back-End Web-Developer, Electrical and electronics engineer, Based on Riyadh Saudi Arabia</h3>
 
 <p align="center">
 

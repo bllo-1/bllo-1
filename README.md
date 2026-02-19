@@ -98,8 +98,8 @@
 
 ## 📈 Key Technical Achievements
 
-- ⚡ Full cloud migration (OCI → GCP) with zero downtime
-- 🏗️ Multi-region architecture design and implementation
+
+- 🏗️ Multi-region implementation
 - 🚀 CI/CD pipeline optimization (45 min → 12 min)
 - 💰 Cloud cost optimization (30% reduction)
 - 📊 Infrastructure monitoring and alerting setup

@@ -82,8 +82,7 @@ Professional real estate company website for Maladh Almuwatin.
 ### 🦞 [ClaudeClaw on Railway](https://github.com/bllo-1/claudeclaw-railway)
 **Autonomous AI Agent Infrastructure** | Production • 24/7 Operations
 
-🔗 **Live Demo:** https://jisr.up.railway.app
-🔑 **Authentication:** SSO (SAML 2.0)
+🔗 **Live Demo:** https://claudeclaw-railway-production.up.railway.app/
 
 Production deployment of ClaudeClaw autonomous AI agent system running headless on Railway.
 

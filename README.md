@@ -15,28 +15,12 @@
 
 ---
 
-## 🚀 Production AI Projects
+## 🚀 Production Projects
 
-### 🦞 [ClaudeClaw on Railway](https://github.com/bllo-1/claudeclaw-railway)
-**Autonomous AI Agent Infrastructure** | Production • 24/7 Operations
+### 🤖 [CircleAI Legal Platform](https://law.circleai.sa)
+**AI-Powered Legal SaaS** | Production
 
-Production deployment of ClaudeClaw autonomous AI agent system running headless on Railway.
-
-**Key Features:**
-- Headless OAuth credential management with automatic token refresh
-- Persistent state across redeploys via Railway volumes
-- Web dashboard with Bearer token authentication
-- Telegram bot integration for remote interactions
-- Scheduled autonomous runs (cron-based)
-- Health monitoring and auto-restart policies
-
-**Stack:** Docker, Railway, Bun, Node.js, Claude Code CLI, Shell
-**Deployment:** Railway PaaS with persistent volumes at `/data`
-
----
-
-### 🤖 CircleAI Legal Platform
-**AI-Powered Legal SaaS** | Production • [Live](https://law.circleai.sa)
+🔗 **Live:** https://law.circleai.sa
 
 AI-powered legal assistance platform serving the Saudi legal industry.
 
@@ -50,10 +34,12 @@ AI-powered legal assistance platform serving the Saudi legal industry.
 
 ---
 
-## 💼 Full-Stack Enterprise Applications
-
 ### 🏢 [JISR HR Intranet Portal](https://github.com/bllo-1/intranet-company)
 **Enterprise Internal Portal** | Production @ JISR | Django + HTMX
+
+🔗 **Live Demo:** https://jisr.up.railway.app
+🔑 **Authentication:** SSO (SAML 2.0 - @jisr.net employees only)
+📊 **Health Check:** https://web-production-14f4a.up.railway.app/health/
 
 Comprehensive Django-based intranet portal with employee management, policies, announcements, and JISR API integration.
 
@@ -81,8 +67,49 @@ Comprehensive Django-based intranet portal with employee management, policies, a
 
 ---
 
+### 🏠 [Maladh Almuwatin Real Estate](https://www.maladhmc.com.sa/)
+**Corporate Real Estate Website** | Production
+
+🔗 **Live Website:** https://www.maladhmc.com.sa/
+
+Professional real estate company website for Maladh Almuwatin.
+
+**Type:** Corporate website
+**Status:** Live in production
+
+---
+
+### 🦞 [ClaudeClaw on Railway](https://github.com/bllo-1/claudeclaw-railway)
+**Autonomous AI Agent Infrastructure** | Production • 24/7 Operations
+
+🔗 **Live Demo:** https://jisr.up.railway.app
+🔑 **Authentication:** SSO (SAML 2.0)
+
+Production deployment of ClaudeClaw autonomous AI agent system running headless on Railway.
+
+**Key Features:**
+- Headless OAuth credential management with automatic token refresh
+- Persistent state across redeploys via Railway volumes
+- Web dashboard with Bearer token authentication
+- Telegram bot integration for remote interactions
+- Scheduled autonomous runs (cron-based)
+- Health monitoring and auto-restart policies
+
+**Stack:** Docker, Railway, Bun, Node.js, Claude Code CLI, Shell
+**Deployment:** Railway PaaS with persistent volumes at `/data`
+
+---
+
+## 💼 Full-Stack Applications (In Development)
+
+---
+
 ### 🎫 [Helpdesk Support System](https://github.com/bllo-1/helpdesk-support-frontend) | [Backend](https://github.com/bllo-1/helpdesk-support-backend)
 **IT Support & Ticketing Platform** | In Development | React + Django
+
+🔗 **Live Demo:** https://helpdesk.jisr.net
+🔑 **Authentication:** SSO (SAML 2.0)
+📊 **Backend Health:** https://web-production-14f4a.up.railway.app/health/
 
 Full-stack ticketing and support management system for IT operations.
 
@@ -113,6 +140,9 @@ Full-stack ticketing and support management system for IT operations.
 ### 💰 [Spend Tracker](https://github.com/bllo-1/spend-tracker-frontend) | [Backend](https://github.com/bllo-1/spend-tracker-backend)
 **AI-Powered Expense Management** | In Development | React + Django + Claude AI
 
+🔗 **Frontend:** https://frontend-production-3232.up.railway.app
+🔗 **Backend API:** https://backend-production-2e2ea.up.railway.app/?format=json
+
 Intelligent expense tracking and budget management with AI-powered invoice extraction.
 
 **Frontend Stack:**
@@ -123,7 +153,7 @@ Intelligent expense tracking and budget management with AI-powered invoice extra
 - **UI:** Tailwind CSS + Radix UI + shadcn/ui
 - **Charts:** Recharts
 - **Forms:** React Hook Form + Zod validation
-- **Hosting:** Cloudflare (via Vite plugin)
+- **Hosting:** Railway
 
 **Backend Stack:**
 - **Framework:** Django 5.0 + Django REST Framework
@@ -146,16 +176,6 @@ Intelligent expense tracking and budget management with AI-powered invoice extra
 - 💾 File uploads to Supabase Storage
 
 **Architecture:** Modern full-stack with AI integration for intelligent expense processing
-
----
-
-### 🏠 Maladh Almuwatin Real Estate
-**Corporate Real Estate Website** | In Development
-
-Real estate company website.
-
-**Stack:** (Details pending - analyzing repository)
-**Type:** Corporate website
 
 ---
 

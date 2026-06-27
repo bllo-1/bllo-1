@@ -39,7 +39,7 @@ AI-powered legal assistance platform serving the Saudi legal industry.
 
 🔗 **Live Demo:** https://jisr.up.railway.app
 🔑 **Authentication:** SSO (SAML 2.0 - @jisr.net employees only)
-📊 **Health Check:** https://web-production-14f4a.up.railway.app/health/
+
 
 Comprehensive Django-based intranet portal with employee management, policies, announcements, and JISR API integration.
 

@@ -3,7 +3,7 @@
 
   # Hi 👋, I'm Abdullah Ali Ahmed
 
-  ### DevOps Engineer | AI Engineer | Cloud Infrastructure Specialist
+  ### DevOps Engineer | AI Engineer | Vibe Coding 
 
   <p>
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=2E9EF7&center=true&vCenter=true&width=600&lines=DevOps+%26+AI+Engineer+%40+JISR;Building+AI+Products+%26+Automation;Kubernetes+%7C+Terraform+%7C+Claude+Code;Multi-Cloud+(AWS+%7C+GCP+%7C+OCI)" alt="Typing SVG" />

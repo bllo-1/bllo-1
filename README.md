@@ -15,30 +15,164 @@
 
 ---
 
-## 🚀 AI Engineering Projects
+## 🚀 Production AI Projects
 
-### Featured AI Work
+### 🦞 [ClaudeClaw on Railway](https://github.com/bllo-1/claudeclaw-railway)
+**Autonomous AI Agent Infrastructure** | Production • 24/7 Operations
 
-🦞 **[ClaudeClaw on Railway](https://github.com/bllo-1/claudeclaw-railway)** — Production deployment of autonomous AI agent
-- Solves headless authentication, persistent state, and secure cloud exposure
-- 24/7 autonomous operations with Telegram integration
-- Stack: Docker, Railway, Claude Code CLI, Bun
+Production deployment of ClaudeClaw autonomous AI agent system running headless on Railway.
 
-🤖 **CircleAI Legal Platform** — AI-powered legal assistance SaaS ([Live](https://law.circleai.sa))
-- AI legal document analysis for Saudi market
+**Key Features:**
+- Headless OAuth credential management with automatic token refresh
+- Persistent state across redeploys via Railway volumes
+- Web dashboard with Bearer token authentication
+- Telegram bot integration for remote interactions
+- Scheduled autonomous runs (cron-based)
+- Health monitoring and auto-restart policies
+
+**Stack:** Docker, Railway, Bun, Node.js, Claude Code CLI, Shell
+**Deployment:** Railway PaaS with persistent volumes at `/data`
+
+---
+
+### 🤖 CircleAI Legal Platform
+**AI-Powered Legal SaaS** | Production • [Live](https://law.circleai.sa)
+
+AI-powered legal assistance platform serving the Saudi legal industry.
+
+**Features:**
+- AI legal document analysis
+- Legal Q&A powered by Claude AI
 - Production AI product serving real users
 
-🔧 **AI Engineering Operating System** — Personal productivity system
-- Standardized AI workflows (CLAUDE.md, STATE.md, LOOP.md)
-- Loop Engineering for automated repository maintenance
-- Custom MCP servers for tool integration
+**Stack:** (Details pending - private repository)
+**Market:** Saudi Arabia legal services
 
-### Active Development
+---
 
-💼 **Intranet Company Portal** — Internal employee management system
-🎫 **Helpdesk Support System** — Full-stack ticketing and support platform
-💰 **Spend Tracker** — Expense tracking and budget management
-🏠 **Maladh Almuwatin** — Real estate company website
+## 💼 Full-Stack Enterprise Applications
+
+### 🏢 [JISR HR Intranet Portal](https://github.com/bllo-1/intranet-company)
+**Enterprise Internal Portal** | Production @ JISR | Django + HTMX
+
+Comprehensive Django-based intranet portal with employee management, policies, announcements, and JISR API integration.
+
+**Key Features:**
+- 👥 Employee directory with organizational charts
+- 📋 Policy management with acknowledgment tracking
+- 📢 Company-wide announcements system
+- 📄 Document management with Supabase Storage
+- 🔐 SAML 2.0 SSO with Google Workspace (@jisr.net domain-restricted)
+- 📊 RESTful API with automated employee sync (6-hour Railway cronjobs)
+- 🔒 Security: HTTPS enforced, HSTS headers, 35 automated tests (94% passing)
+
+**Stack:**
+- **Backend:** Django 4.2 (lightweight JSON APIs, no DRF)
+- **Auth:** djangosaml2 + Google Workspace SAML 2.0
+- **Database:** PostgreSQL (Railway)
+- **Storage:** Supabase Storage
+- **Frontend:** Tailwind CSS 3 + HTMX 1.9 (dynamic interactions)
+- **Deployment:** Railway with automated CI/CD
+- **Monitoring:** Rollbar, Structlog, psutil
+- **Server:** Gunicorn + WhiteNoise
+
+**Deployment:** Railway (staging + production environments)
+**Testing:** TDD approach with 94% test coverage on critical paths
+
+---
+
+### 🎫 [Helpdesk Support System](https://github.com/bllo-1/helpdesk-support-frontend) | [Backend](https://github.com/bllo-1/helpdesk-support-backend)
+**IT Support & Ticketing Platform** | In Development | React + Django
+
+Full-stack ticketing and support management system for IT operations.
+
+**Frontend Stack:**
+- **Framework:** React 19 + TypeScript
+- **Build:** Vite
+- **Router:** TanStack Router
+- **State:** TanStack Query
+- **UI:** Tailwind CSS + shadcn/ui + Radix UI
+- **Charts:** Recharts
+- **Hosting:** Railway
+
+**Backend Stack:**
+- **Framework:** Django 5.1 + Django REST Framework
+- **Database:** PostgreSQL
+- **Cache:** Redis (Celery, Channels)
+- **Auth:** djangosaml2 (SAML 2.0) + JWT
+- **WebSocket:** Channels + Daphne (real-time updates)
+- **Tasks:** Celery + Redis
+- **Monitoring:** Sentry
+- **Server:** Gunicorn + WhiteNoise
+- **Hosting:** Railway
+
+**Architecture:** Decoupled frontend/backend with RESTful API + WebSocket support
+
+---
+
+### 💰 [Spend Tracker](https://github.com/bllo-1/spend-tracker-frontend) | [Backend](https://github.com/bllo-1/spend-tracker-backend)
+**AI-Powered Expense Management** | In Development | React + Django + Claude AI
+
+Intelligent expense tracking and budget management with AI-powered invoice extraction.
+
+**Frontend Stack:**
+- **Framework:** React 19 + TypeScript
+- **Build:** Vite
+- **Router:** TanStack Router + TanStack Start
+- **State:** TanStack Query + Zustand
+- **UI:** Tailwind CSS + Radix UI + shadcn/ui
+- **Charts:** Recharts
+- **Forms:** React Hook Form + Zod validation
+- **Hosting:** Cloudflare (via Vite plugin)
+
+**Backend Stack:**
+- **Framework:** Django 5.0 + Django REST Framework
+- **Database:** PostgreSQL (Supabase)
+- **Storage:** Supabase Storage
+- **AI:** Claude AI (Anthropic) for OCR/invoice extraction
+- **Tasks:** Celery + Redis (scheduled jobs)
+- **Email:** Django Anymail
+- **PDF:** ReportLab + WeasyPrint
+- **Auth:** JWT (Simple JWT)
+- **Server:** Gunicorn + WhiteNoise
+- **Hosting:** Railway
+
+**Key Features:**
+- 🤖 AI-powered invoice extraction using Claude AI
+- 📊 Budget tracking and calculations
+- 📧 Email notifications
+- 📄 PDF report generation
+- ⏰ Scheduled background jobs with Celery
+- 💾 File uploads to Supabase Storage
+
+**Architecture:** Modern full-stack with AI integration for intelligent expense processing
+
+---
+
+### 🏠 Maladh Almuwatin Real Estate
+**Corporate Real Estate Website** | In Development
+
+Real estate company website.
+
+**Stack:** (Details pending - analyzing repository)
+**Type:** Corporate website
+
+---
+
+## 🔧 AI Engineering Operating System
+
+**Personal Productivity System** | Active Development
+
+Standardized AI workflows and automation for professional AI engineering.
+
+**Components:**
+- 📄 **CLAUDE.md** — Standard project documentation for Claude Code
+- 📊 **STATE.md** — Real-time project state tracking
+- 🔄 **LOOP.md** — Loop Engineering for automated maintenance
+- 🛠️ **Custom MCP Servers** — Tool integration layer
+- 📚 **Knowledge Base** — Centralized documentation and prompts
+
+**Goal:** Make every project instantly understandable to Claude Code and automate repository maintenance.
 
 ---
 
@@ -48,8 +182,8 @@
 ![Claude](https://img.shields.io/badge/Claude-6B46C1?style=for-the-badge&logo=anthropic&logoColor=white)
 ![AI Agents](https://img.shields.io/badge/AI_Agents-FF6B6B?style=for-the-badge&logo=robot&logoColor=white)
 
-**AI Tools:** Claude Code, Claude API, Autonomous Agents, RAG Systems
-**AI Workflows:** Prompt engineering, context engineering, multi-agent systems
+**AI Tools:** Claude Code, Claude API (Anthropic), Autonomous Agents, RAG Systems
+**AI Workflows:** Prompt engineering, context engineering, multi-agent systems, OCR/document extraction
 **MCP:** Model Context Protocol integration
 
 ### ☁️ Cloud Platforms
@@ -57,11 +191,13 @@
 ![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
 ![Oracle Cloud](https://img.shields.io/badge/Oracle_Cloud-F80000?style=for-the-badge&logo=oracle&logoColor=white)
 ![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
 
 **GCP:** GKE, Cloud SQL, Compute Engine, VPC, Cloud Storage, Cloud Load Balancing, IAM
 **AWS:** EKS, EC2, RDS, S3, WAF, IAM, Route53
 **OCI:** Compute, Networking, Storage
-**PaaS:** Railway (AI agent deployment)
+**PaaS:** Railway (containerized deployments, cronjobs, volumes)
+**BaaS:** Supabase (PostgreSQL, Storage, Auth)
 
 ### 🐳 Container & Orchestration
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
@@ -92,8 +228,9 @@
 ![Datadog](https://img.shields.io/badge/Datadog-632CA6?style=for-the-badge&logo=datadog&logoColor=white)
 ![New Relic](https://img.shields.io/badge/New_Relic-008C99?style=for-the-badge&logo=new-relic&logoColor=white)
 
-**Monitoring:** DataDog, New Relic
-**Metrics:** APM, Infrastructure Monitoring, Log Management
+**Monitoring:** DataDog, New Relic, Rollbar, Sentry
+**Logging:** Structlog, Django logging
+**Metrics:** APM, Infrastructure Monitoring, psutil, Log Management
 **Alerting:** Custom alerts, SLO/SLI tracking
 
 ### 🔐 Security & Secrets Management
@@ -101,7 +238,8 @@
 
 **Secrets Management:** HashiCorp Vault
 **Access Management:** Teleport, IAM, RBAC
-**Security:** Network Policies, Pod Security Standards, WAF
+**Authentication:** SAML 2.0 SSO (djangosaml2), JWT
+**Security:** Network Policies, Pod Security Standards, WAF, HSTS, secure cookies
 
 ### 💻 Programming & Scripting
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -110,15 +248,30 @@
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
 
 **Languages:** Python, JavaScript/TypeScript, Bash, SQL
-**Runtimes:** Node.js, Bun
-**Frameworks:** Django, Next.js, React, FastAPI
+**Python Frameworks:** Django, Django REST Framework, Celery, FastAPI
+**JS Runtimes:** Node.js, Bun
+**Frontend Frameworks:** React 19, Next.js, TanStack Router, Vite
+**Testing:** pytest, Django test framework, TDD methodology
 
-### 🗄️ Databases
+### 🗄️ Databases & Storage
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 
-**Databases:** PostgreSQL, Cloud SQL, MongoDB
-**Database Tools:** pg_dump, pg_restore, Logical Replication
+**Relational:** PostgreSQL, Cloud SQL (via Supabase, Railway)
+**Cache:** Redis (Celery broker, Channels layer)
+**NoSQL:** MongoDB
+**Database Tools:** pg_dump, pg_restore, Logical Replication, psycopg
+
+### 🎨 Frontend & UI
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+
+**UI Libraries:** Radix UI, shadcn/ui, HTMX
+**Styling:** Tailwind CSS 3-4, CSS Modules
+**State Management:** TanStack Query, Zustand
+**Forms:** React Hook Form, Zod validation
+**Charts:** Recharts
 
 ### 🌐 Networking & Load Balancing
 **Networking:** VPC, Subnets, Firewall Rules, VPN, VPC Peering
@@ -132,6 +285,7 @@
 **Operating Systems:** Linux (Ubuntu, Debian)
 **IDEs:** VS Code, Claude Code, Vim
 **Collaboration:** Slack, Confluence, Jira
+**Version Control:** Git, GitHub
 
 ---
 
@@ -145,12 +299,14 @@
 - 🔒 Enterprise security implementation (RBAC, Network Policies, Vault)
 - 🤝 DevOps workflows coordination for 100+ developers
 
-### AI Engineering
+### AI Engineering & Full-Stack Development
 - 🤖 Production deployment of autonomous AI agent (ClaudeClaw on Railway)
-- 🦾 AI-powered SaaS product serving real users (CircleAI)
+- 🦾 AI-powered SaaS products serving real users (CircleAI, Spend Tracker)
 - 📚 Built AI Engineering Operating System with standardized workflows
 - 🔄 Implementing Loop Engineering for automated repository maintenance
-- 🛠️ Custom MCP server development for tool integration
+- 🛠️ AI-powered document extraction using Claude AI (OCR/invoice processing)
+- 🏢 Enterprise Django applications with SAML 2.0 SSO (94% test coverage)
+- ⚡ Modern full-stack architecture (React 19 + Django 5 + PostgreSQL)
 
 ---
 

@@ -3,7 +3,7 @@
 
   # Hi 👋, I'm Abdullah Ali Ahmed
 
-  ### DevOps Engineer | AI Engineer | Vibe Coding 
+  ### DevOps Engineer | AI Engineer | Vibe Coding
 
   <p>
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=2E9EF7&center=true&vCenter=true&width=600&lines=DevOps+%26+AI+Engineer+%40+JISR;Building+AI+Products+%26+Automation;Kubernetes+%7C+Terraform+%7C+Claude+Code;Multi-Cloud+(AWS+%7C+GCP+%7C+OCI)" alt="Typing SVG" />
@@ -200,10 +200,16 @@ Standardized AI workflows and automation for professional AI engineering.
 ### 🤖 AI & Automation
 ![Claude](https://img.shields.io/badge/Claude-6B46C1?style=for-the-badge&logo=anthropic&logoColor=white)
 ![AI Agents](https://img.shields.io/badge/AI_Agents-FF6B6B?style=for-the-badge&logo=robot&logoColor=white)
+![Lovable](https://img.shields.io/badge/Lovable-FF6B9D?style=for-the-badge&logo=heart&logoColor=white)
 
-**AI Tools:** Claude Code, Claude API (Anthropic), Autonomous Agents, RAG Systems
+**AI Development:**
+- **Claude Code** — AI-powered coding assistant for accelerated development
+- **ClaudeClaw** — Autonomous AI agent for 24/7 repository maintenance
+- **Claude API** (Anthropic) — AI integration for OCR, document extraction, legal analysis
+- **Lovable** — AI-powered frontend development and UI generation
+
 **AI Workflows:** Prompt engineering, context engineering, multi-agent systems, OCR/document extraction
-**MCP:** Model Context Protocol integration
+**MCP:** Model Context Protocol integration for custom tools
 
 ### ☁️ Cloud Platforms
 ![GCP](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
